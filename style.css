@@ -112,4 +112,17 @@
         color: hsl(0, 0%, 95%);
     }
 
+    @media screen and (max-width: 375px) {
+        .card{
+            display: flex;
+            flex-direction: column;
+            width: 225px;
+        }
+
+        .frame{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 }
